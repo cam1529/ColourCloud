@@ -15,10 +15,10 @@ Colour Cloud is a palette-generating mobile app that helps you find the perfect 
          alt="Figma Prototype" height="60">
 </a>
 </div>
-</br></br>
+</br>
 
 ## Screenshots
 <div style="display:flex;" >
-<img  src="screenshots/screenshotv1.png" width="60%" >
+<img  src="screenshots/screenshotv1.png" width="80%" >
 
 </div>
