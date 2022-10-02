@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.paletteStudio.ToolColourWheelFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="#000000"
+        android:textColor="@color/greyblue"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarR"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:max="255"
+        android:progressBackgroundTint="@color/greyblue"
+        android:progressTint="@color/greyblue"
+        android:thumbTint="#FF0000" />
+
+    <SeekBar
+        android:id="@+id/seekBarG"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:max="255"
+        android:progressBackgroundTint="@color/greyblue"
+        android:thumbTint="#00FF00" />
+
+    <SeekBar
+        android:id="@+id/seekBarB"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:max="255"
+        android:progressBackgroundTint="@color/greyblue"
+        android:thumbTint="#0000FF" />
+
+
+</LinearLayout>

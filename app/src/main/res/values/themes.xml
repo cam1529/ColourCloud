@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ColourCloud" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/darkblue</item>
+        <item name="android:colorPrimaryDark">@color/black</item>
+        <item name="colorPrimaryVariant">@color/greyblue</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/lexendbold</item>
+    </style>
+
+    <style name="Theme.ColourCloud.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ColourCloud.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ColourCloud.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

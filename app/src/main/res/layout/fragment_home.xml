@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.homePage.HomeFragment">
+
+    <Button
+        android:id="@+id/barPaletteColour1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFFFF"
+        android:backgroundTint="#FFEA46CB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconRandomizePalette" />
+
+    <Button
+        android:id="@+id/barPaletteColour2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFFFF"
+        android:backgroundTint="#FFEF5D96"
+        app:layout_constraintEnd_toEndOf="@+id/barPaletteColour1"
+        app:layout_constraintStart_toStartOf="@+id/barPaletteColour1"
+        app:layout_constraintTop_toBottomOf="@+id/barPaletteColour1" />
+
+    <Button
+        android:id="@+id/barPaletteColour3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFF4787A"
+        app:layout_constraintEnd_toEndOf="@+id/barPaletteColour1"
+        app:layout_constraintStart_toStartOf="@+id/barPaletteColour1"
+        app:layout_constraintTop_toBottomOf="@+id/barPaletteColour2" />
+
+    <Button
+        android:id="@+id/barPaletteColour4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFF6A37F"
+        app:layout_constraintEnd_toEndOf="@+id/barPaletteColour1"
+        app:layout_constraintStart_toStartOf="@+id/barPaletteColour1"
+        app:layout_constraintTop_toBottomOf="@+id/barPaletteColour3" />
+
+    <Button
+        android:id="@+id/barPaletteColour5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFEFB87"
+        app:layout_constraintEnd_toEndOf="@+id/barPaletteColour1"
+        app:layout_constraintStart_toStartOf="@+id/barPaletteColour1"
+        app:layout_constraintTop_toBottomOf="@+id/barPaletteColour4" />
+
+    <Button
+        android:id="@+id/btnLikePalette"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barPaletteColour5" />
+
+    <ImageView
+        android:id="@+id/iconLike"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLikePalette"
+        app:layout_constraintEnd_toEndOf="@+id/btnLikePalette"
+        app:layout_constraintStart_toStartOf="@+id/btnLikePalette"
+        app:layout_constraintTop_toTopOf="@+id/btnLikePalette"
+        app:srcCompat="@drawable/ic_heart_empty" />
+
+    <ImageView
+        android:id="@+id/iconLiked"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLikePalette"
+        app:layout_constraintEnd_toEndOf="@+id/btnLikePalette"
+        app:layout_constraintStart_toStartOf="@+id/btnLikePalette"
+        app:layout_constraintTop_toTopOf="@+id/btnLikePalette"
+        app:srcCompat="@drawable/ic_heart_filled" />
+
+    <Button
+        android:id="@+id/btnTagPalette"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintStart_toEndOf="@+id/btnLikePalette"
+        app:layout_constraintTop_toTopOf="@+id/btnLikePalette" />
+
+    <ImageView
+        android:id="@+id/iconTag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:rotation="310"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTagPalette"
+        app:layout_constraintEnd_toEndOf="@+id/btnTagPalette"
+        app:layout_constraintStart_toStartOf="@+id/btnTagPalette"
+        app:layout_constraintTop_toTopOf="@+id/btnTagPalette"
+        app:srcCompat="@drawable/ic_label_empty" />
+
+    <ImageView
+        android:id="@+id/iconTags"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:rotation="310"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTagPalette"
+        app:layout_constraintEnd_toEndOf="@+id/btnTagPalette"
+        app:layout_constraintStart_toStartOf="@+id/btnTagPalette"
+        app:layout_constraintTop_toTopOf="@+id/btnTagPalette"
+        app:srcCompat="@drawable/ic_label_filled" />
+
+    <Button
+        android:id="@+id/btnSavePalette"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnLikePalette" />
+
+    <ImageView
+        android:id="@+id/iconSave"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSavePalette"
+        app:layout_constraintEnd_toEndOf="@+id/btnSavePalette"
+        app:layout_constraintStart_toStartOf="@+id/btnSavePalette"
+        app:layout_constraintTop_toTopOf="@+id/btnSavePalette"
+        app:srcCompat="@drawable/ic_bookmark_empty" />
+
+    <ImageView
+        android:id="@+id/iconSaved"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSavePalette"
+        app:layout_constraintEnd_toEndOf="@+id/btnSavePalette"
+        app:layout_constraintStart_toStartOf="@+id/btnSavePalette"
+        app:layout_constraintTop_toTopOf="@+id/btnSavePalette"
+        app:srcCompat="@drawable/ic_bookmark_filled" />
+
+    <ImageView
+        android:id="@+id/iconRandomizePalette"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_shuffle" />
+
+    <ImageView
+        android:id="@+id/iconModifyPalette"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iconRandomizePalette"
+        app:srcCompat="@drawable/ic_edit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

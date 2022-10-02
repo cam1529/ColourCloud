@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ColourCloud</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home_page">Home</string>
+    <string name="title_saved_page">Saved</string>
+    <string name="title_search_page">Search</string>
+    <string name="title_activity_palette_studio">Palette Studio</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245882686628",
+    "project_id": "colourcloud-18cb8",
+    "storage_bucket": "colourcloud-18cb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245882686628:android:dbf189a0a494830193aa31",
+        "android_client_info": {
+          "package_name": "com.cooki.colourcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245882686628-mqld5o885u1pcenfv4ee2bfblvj6evc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZjWEAmrShFbUZvdGymKH0t3gw4G9Tc3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245882686628-mqld5o885u1pcenfv4ee2bfblvj6evc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
